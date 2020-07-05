@@ -1,0 +1,28 @@
+{
+  "name": "backendpeliculas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemiguelbayarri/backendpeliculas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemiguelbayarri/backendpeliculas/issues"
+  },
+  "homepage": "https://github.com/josemiguelbayarri/backendpeliculas#readme",
+  "dependencies": {
+    "axios": "0.19.2",
+    "bcryptjs": "2.4.3",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mysql2": "2.1.0",
+    "sequelize": "5.21.13"
+  }
+}
